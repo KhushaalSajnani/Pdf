@@ -12,6 +12,7 @@
   color: aliceblue;
 }
 
+
 .buttons{
   height: 100%;
   width: 15%;
@@ -19,6 +20,8 @@
   display: flex;
   align-items: center;
 }
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap');
 
 .btn1{
@@ -42,5 +45,67 @@
   margin-right: 4%;
   border: 0;
   font-size: x-small;
+}
+@media screen and (max-width: 900px) and (min-width: 760px){
+  .buttons{
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px){
+  .btn1{
+    margin-top: -2%;
+    width: 20%;
+  }
+  .buttons{
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width:350px){
+  .buttons{
+   margin-top: -4%;
+  }
+}
+
+@media only screen and (max-width:1024px) {
+  .buttons{
+    margin-right: 15%;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .buttons{
+    width:20%;
+  }
+
+  .btn1{
+    margin-right: 10%;
+  }
+}
+
+@media only screen and (max-width:768px){
+  .container{
+    flex-wrap: wrap;
+    height: 9vh;
+  }
+  .text{
+    margin-top: 2%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    color: aliceblue;
+  }
+
+
+  .buttons{
+    height: 70%;
+    width: 100vw;
+  }
+
+  .btn1{
+    margin-left: 3%;
+  }
 }
 

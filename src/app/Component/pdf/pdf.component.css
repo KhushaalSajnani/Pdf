@@ -1,6 +1,6 @@
 
 pdf-viewer{
-  height:50%;
+  width:50%;
   height: 100vh;
   overflow-x: hidden;
 }
@@ -49,4 +49,15 @@ button{
   color: blue;
 }
 
+@media only screen and (max-width:768px){
+  .actions{
+    width:100vw;
+    justify-content: space-evenly;
+  }
 
+  pdf-viewer{
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+}

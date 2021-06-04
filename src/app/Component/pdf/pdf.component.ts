@@ -18,8 +18,7 @@ const FileSaver = require('file-saver');
       </div>
     </div>
 
-    <pdf-viewer [src]="pdf"
-                [render-text]="true" [rotation]="angle" [zoom]="zoom" [zoom]="zoom"></pdf-viewer>
+    <pdf-viewer [src]="pdf" [render-text]="true" [rotation]="angle" [zoom]="zoom" [zoom]="zoom"></pdf-viewer>
   `,
   styleUrls: ['./pdf.component.css']
 })
