@@ -1,0 +1,44 @@
+
+
+.container{
+  height: 4vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #ebe7e8;
+  align-items: center;
+
+}
+
+.actions{
+  width: 25vw;
+  display: flex;
+  justify-content: space-between;
+}
+.fa{
+  color: #000;
+  font-size: 1rem;
+}
+
+button{
+  position: relative;
+  border:0;
+  background-color:#ebe7e8
+}
+
+#plus:hover{
+  color: blue;
+}
+#minus:hover{
+  color: blue;
+}
+#download:hover{
+  color: blue;
+}
+#print:hover{
+  color: blue;
+}
+#rotate:hover{
+  color: blue;
+}
+

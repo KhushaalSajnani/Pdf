@@ -1,0 +1,46 @@
+.container{
+  height: 5vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blue;
+}
+
+.text{
+  margin-left: 5%;
+  color: aliceblue;
+}
+
+.buttons{
+  height: 100%;
+  width: 15%;
+  margin-right: 5%;
+  display: flex;
+  align-items: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap');
+
+.btn1{
+  padding:1.5% 5%;
+  /*padding-right: 10%;*/
+  font-weight: 400;
+  border-radius: 5%;
+  width: 50%;
+  height: fit-content;
+  margin-right: 15%;
+  letter-spacing: 0.1rem;
+  font-family: 'Ubuntu', sans-serif;
+  border: 0;
+  font-size: small;
+  background-color: #ffc700;
+}
+
+.dropdown{
+  background-color: blue;
+  color: aliceblue;
+  margin-right: 4%;
+  border: 0;
+  font-size: x-small;
+}
+
